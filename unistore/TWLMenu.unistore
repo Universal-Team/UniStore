@@ -71,11 +71,11 @@
 			"file": "/nds-bootstrap.7z"
 		}]
 	},
-	"TWiLightMenu++ (Release)": {
+	"TWiLight Menu++ (Release)": {
 		"info": {
 			"version": "11.2.0",
 			"author": "DS-Homebrew",
-			"description": "TWiLightMenu++",
+			"description": "TWiLight Menu++",
 			"fileSize": 14658927
 		},
 		"script": [{
@@ -129,11 +129,11 @@
 			"file": "/TWiLightMenu.7z"
 		}]
 	},
-	"TWiLightMenu++ (Nightly)": {
+	"TWiLight Menu++ (Nightly)": {
 		"info": {
 			"version": "11.2.0",
 			"author": "DS-Homebrew",
-			"description": "TWiLightMenu++",
+			"description": "TWiLight Menu++",
 			"fileSize": 14658927
 		},
 		"script": [{
@@ -186,7 +186,7 @@
 			"file": "/TWiLightMenu.7z"
 		}]
 	},
-	"TWiLightMenu++ (Nightly Lite)": {
+	"TWiLight Menu++ (Nightly Lite)": {
 		"info": {
 			"version": "11.2.0",
 			"author": "DS-Homebrew",
