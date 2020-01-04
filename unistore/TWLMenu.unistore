@@ -1,12 +1,12 @@
 {
 	"storeInfo": {
-		"title": "TWiLightMenu++ Store",
+		"title": "TWiLight Menu++ Store",
 		"author": "Universal-Team",
 		"url": "https://github.com/Universal-Team/UniStore/raw/master/unistore/TWLMenu.unistore",
 		"sheetURL": "https://github.com/Universal-Team/UniStore/raw/master/unistore/TWLMenu.t3x",
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/TWLMenu.t3x",
 		"file": "sdmc:/3ds/Universal-Updater/stores/TWLMenu.unistore",
-		"description": "TWiLightMenu++ Store",
+		"description": "TWiLight Menu++ Store",
 		"displayInformation": false,
 		"iconIndexTop": 0,
 		"iconIndexBottom": 1,
