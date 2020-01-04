@@ -1,0 +1,301 @@
+{
+	"storeInfo": {
+		"title": "TWiLightMenu++ Store",
+		"author": "Universal-Team",
+		"url": "https://github.com/Universal-Team/UniStore/raw/master/unistore/TWLMenu.unistore",
+		"sheetURL": "https://github.com/Universal-Team/UniStore/raw/master/unistore/TWLMenu.t3x",
+		"sheet": "sdmc:/3ds/Universal-Updater/stores/TWLMenu.t3x",
+		"file": "sdmc:/3ds/Universal-Updater/stores/TWLMenu.unistore",
+		"description": "TWiLightMenu++ Store",
+		"displayInformation": false,
+		"iconIndexTop": 0,
+		"iconIndexBottom": 1,
+		"buttonSmall": 2,
+		"buttonLarge": 3,
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 0
+	},
+	"nds-bootstrap (Release)": {
+		"info": {
+			"version": "0.28.1",
+			"author": "ahezard",
+			"description": "Runs an .nds file",
+			"fileSize": 772608
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "ahezard/nds-bootstrap",
+			"file": "nds-bootstrap.7z",
+			"output": "sdmc:/nds-bootstrap.7z",
+			"message": "Downloading nds-bootstrap.7z..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/nds-bootstrap.7z",
+			"input": "",
+			"output": "/_nds/",
+			"message": "Extracting nds-bootstrap..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/nds-bootstrap.7z"
+		}]
+	},
+	"nds-bootstrap (Nightly)": {
+		"info": {
+			"version": "0.28.1",
+			"author": "ahezard",
+			"description": "Runs an .nds file",
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
+			"output": "/nds-bootstrap.7z",
+			"message": "Downloading nds-bootstrap Nightly..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/nds-bootstrap.7z",
+			"input": "nds-bootstrap/",
+			"output": "/_nds/",
+			"message": "Extract nds-bootstrap..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/nds-bootstrap.7z"
+		}]
+	},
+	"TWiLightMenu++ (Release)": {
+		"info": {
+			"version": "11.2.0",
+			"author": "DS-Homebrew",
+			"description": "TWiLightMenu++",
+			"fileSize": 14658927
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "DS-Homebrew/TWiLightMenu",
+			"file": "TWiLightMenu.7z",
+			"output": "/TWiLightMenu.7z",
+			"message": "Downloading TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/_nds/",
+			"output": "/_nds/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/3DS - CFW users/",
+			"output": "",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/DSi&3DS - SD card users/",
+			"output": "",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu.cia",
+			"message": "Installing TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu - Game booter.cia",
+			"message": "Installing TWiLight Menu - Game booter..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu - Game booter.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLightMenu.7z"
+		}]
+	},
+	"TWiLightMenu++ (Nightly)": {
+		"info": {
+			"version": "11.2.0",
+			"author": "DS-Homebrew",
+			"description": "TWiLightMenu++",
+			"fileSize": 14658927
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z",
+			"output": "/TWiLightMenu.7z",
+			"message": "Downloading TWiLight Menu++ (Nightly)..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/_nds/",
+			"output": "/_nds/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/3DS - CFW users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/DSi&3DS - SD card users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu.cia",
+			"message": "Installing TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu - Game booter.cia",
+			"message": "Installing TWiLight Menu - Game booter..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu - Game booter.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLightMenu.7z"
+		}]
+	},
+	"TWiLightMenu++ (Nightly Lite)": {
+		"info": {
+			"version": "11.2.0",
+			"author": "DS-Homebrew",
+			"description": "TWiLightMenu++",
+			"fileSize": 14658927
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
+			"output": "/TWiLightMenu.7z",
+			"message": "Downloading TWiLight Menu++ Lite (Nightly)..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/_nds/",
+			"output": "/_nds/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/3DS - CFW users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/DSi&3DS - SD card users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu.cia",
+			"message": "Installing TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu - Game booter.cia",
+			"message": "Installing TWiLight Menu - Game booter..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu - Game booter.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLightMenu.7z"
+		}]
+	},
+	"usrcheat.dat (Cheat Codes)": {
+		"info": {
+			"version": "",
+			"author": "DeadSkullzJr",
+			"description": "NDS Cheat codes",
+			"fileSize": 42786704
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/usrcheat.dat.7z?",
+			"output": "/usrcheat.dat.7z",
+			"message": "Downloading usrcheat.dat..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/usrcheat.dat.7z",
+			"input": "usrcheat.dat",
+			"output": "/_nds/TWiLightMenu/extras/usrcheat.dat",
+			"message": "Extracting usrcheat.dat..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/usrcheat.dat.7z"
+		}]
+	},
+	"GBARunner2 Nightly": {
+		"info": {
+			"version": "",
+			"author": "Gericom",
+			"description": "A GBA hypervisor for DS.",
+			"fileSize": 260672
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Gericom/GBARunner2",
+			"file": "GBARunner2_arm7dldi_3ds\\.nds",
+			"output": "/_nds/GBARunner2_arm7dldi_3ds.nds",
+			"message": "Downloading GBARunner2... (Nightly)"
+		}]
+	},
+	"GBARunner2 Nightly (Prerelease)": {
+		"info": {
+			"version": "",
+			"author": "Gericom",
+			"description": "A GBA hypervisor for DS.",
+			"fileSize": 260672
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Gericom/GBARunner2",
+			"file": "GBARunner2_arm7dldi_3ds\\.nds",
+			"output": "/_nds/GBARunner2_arm7dldi_3ds.nds",
+			"message": "Downloading GBARunner2... (Nightly)"
+		}]
+	}
+}
