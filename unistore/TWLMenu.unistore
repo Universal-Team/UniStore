@@ -20,8 +20,9 @@
 		"unselectedColor": "#4D7684",
 		"version": 0
 	},
-	"nds-bootstrap (Release)": {
+	"storeContent": [{
 		"info": {
+			"title": "nds-bootstrap (Release)",
 			"version": "0.28.1",
 			"author": "ahezard",
 			"description": "Runs an .nds file",
@@ -46,8 +47,9 @@
 			"file": "/nds-bootstrap.7z"
 		}]
 	},
-	"nds-bootstrap (Nightly)": {
+	{
 		"info": {
+			"title": "nds-bootstrap (Nightly)",
 			"version": "0.28.1",
 			"author": "ahezard",
 			"description": "Runs an .nds file",
@@ -71,8 +73,9 @@
 			"file": "/nds-bootstrap.7z"
 		}]
 	},
-	"TWiLight Menu++ (Release)": {
+	{
 		"info": {
+			"title": "TWiLight Menu++ (Release)",
 			"version": "11.2.0",
 			"author": "DS-Homebrew",
 			"description": "TWiLight Menu++",
@@ -129,8 +132,9 @@
 			"file": "/TWiLightMenu.7z"
 		}]
 	},
-	"TWiLight Menu++ (Nightly)": {
+	{
 		"info": {
+			"title": "TWiLight Menu++ (Nightly)",
 			"version": "11.2.0",
 			"author": "DS-Homebrew",
 			"description": "TWiLight Menu++",
@@ -186,8 +190,9 @@
 			"file": "/TWiLightMenu.7z"
 		}]
 	},
-	"TWiLight Menu++ (Nightly Lite)": {
+	{
 		"info": {
+			"title": "TWiLight Menu++ (Nightly Lite)",
 			"version": "11.2.0",
 			"author": "DS-Homebrew",
 			"description": "TWiLightMenu++",
@@ -243,8 +248,9 @@
 			"file": "/TWiLightMenu.7z"
 		}]
 	},
-	"usrcheat.dat (Cheat Codes)": {
+	{
 		"info": {
+			"title": "usrcheat.dat (Cheat Codes)",
 			"version": "",
 			"author": "DeadSkullzJr",
 			"description": "NDS Cheat codes",
@@ -268,8 +274,9 @@
 			"file": "/usrcheat.dat.7z"
 		}]
 	},
-	"GBARunner2 Nightly": {
+	{
 		"info": {
+			"title": "GBARunner2 Nightly",
 			"version": "",
 			"author": "Gericom",
 			"description": "A GBA hypervisor for DS.",
@@ -283,8 +290,9 @@
 			"message": "Downloading GBARunner2... (Nightly)"
 		}]
 	},
-	"GBARunner2 Nightly (Prerelease)": {
+	{
 		"info": {
+			"title": "GBARunner2 Nightly (Prerelease)",
 			"version": "",
 			"author": "Gericom",
 			"description": "A GBA hypervisor for DS.",
@@ -297,5 +305,5 @@
 			"output": "/_nds/GBARunner2_arm7dldi_3ds.nds",
 			"message": "Downloading GBARunner2... (Nightly)"
 		}]
-	}
+	}]
 }
